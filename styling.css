@@ -29,7 +29,7 @@ h1{
 .info{
     text-align: center;
     background-color:#aaaaaa;
-    height:300px;
+    height:auto;
 
 }
 .education{
@@ -106,6 +106,8 @@ h2{
     font-size:40px;
     text-align:center;
     font-family: 'Heebo', sans-serif;
+    padding-top: 40px;
+    padding-bottom:40px;
 
 }
 
@@ -141,5 +143,39 @@ input[type=text], select {
   }
   .education {
       margin-top:70px;
+
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align:center;
+  /* Should be removed. Only for demonstration */
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear:both ;
+  }
+  .column p{
+    font-size:17px;
+  
+  }
+  .column h1{
+    font-size:27px;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .copywrite{
+     height:auto;
+     color:white;
+     background-color:black;
 
   }
