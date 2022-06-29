@@ -1,9 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@500&family=Heebo:wght@300&family=Roboto+Slab:wght@500&family=Spline+Sans+Mono:wght@500&family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Spline+Sans+Mono:wght@500&family=Yanone+Kaffeesatz&display=swap');*{
     margin:0;
     padding:0;
-    background-color:#aaaaaa;
+  background-color: #aaaaaa;
 }
 .sidebar{
   background-color: black;
@@ -11,9 +12,9 @@
 h1{
     font-family:'Abril Fatface', cursive;
     font-size: xx-large;
-    margin-left: 40px;
+   /* margin-left: 40px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
     color:blueviolet;
     background-color:black;
     
@@ -22,6 +23,9 @@ h1{
     right:10px;
     cursor: pointer;
     top:20px;
+    background-color:black;
+    
+
     
 
     
@@ -29,7 +33,7 @@ h1{
 .info{
     text-align: center;
     background-color:#aaaaaa;
-    height:auto;
+    
 
 }
 .education{
@@ -52,6 +56,7 @@ h1{
     font-size:70px;
     text-align:center;
     font-family: 'Spline Sans Mono', monospace;
+    background-color:#aaaaaa;
     
 
 }
@@ -59,6 +64,7 @@ h1{
     font-size: 40px;
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#aaaaaa;
     
 }
 .mine {
@@ -71,11 +77,13 @@ h1{
 .skills{
     border:1 px;
     height:auto;
+    background-color:#aaaaaa;
     
 }
 .text{   
     text-align:center;
     font-size:40px;
+    background-color:#aaaaaa;
     
 }
 .contact{
@@ -138,11 +146,13 @@ input[type=text], select {
   
 .contact {
     border-radius: 5px;
+    background-color:#aaaaaa;
     
     padding: 20px;
   }
   .education {
       margin-top:70px;
+      background-color:#aaaaaa;
 
   }
   *{
@@ -173,9 +183,16 @@ input[type=text], select {
       width: 100%;
     }
   }
-  .copywrite{
-     height:auto;
-     color:white;
-     background-color:black;
+  .copywrite {
 
+  
+    background-color:black;
+  
+     text-align:center;
+      
+
+  }
+  .copywrite p1{
+     background-color:black;
+     color:white;
   }
